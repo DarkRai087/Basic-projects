@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.nav-link{
+   display: flex;
+    gap: 2rem;
+}
+.nav-link a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: medium;
+    transition: color 0.5s;
+}
+.nav-link a:hover{
+    color: #e67e22;
+}
+.menu-toggle{
+    display: none;
+    cursor: pointer;
+}

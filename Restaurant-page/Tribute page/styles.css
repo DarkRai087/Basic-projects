@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background-color: aqua;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+.content{
+    max-width: 900px;
+    margin: 0;
+}
+.topsection{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.topsection h1{
+font-size: 50px;
+font-weight: bold;
+color: black;
+text-transform: uppercase;
+}
+    .topsection h4 {
+        font-size: 30px;
+        text-align: end;
+    }
+
+.img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img img{
+    width: 300px;
+    height: 320px;
+}
